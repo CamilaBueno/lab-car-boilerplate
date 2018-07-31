@@ -1,1 +1,148 @@
-/* Los estilos de tu proyecto */
+
+body{
+    max-height: 100vh;
+   
+}
+.btn-primary-user{
+    background-color: orange;
+    color: white;
+}
+.taxi{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3, 200px);
+    background-position: center bottom;
+    background-size: cover;
+    background-image: url(../assets/images/taxi.jpg);
+}
+.card{
+    display: flex;
+    align-self:flex-end;
+    
+}
+.jumbotron{
+  display: grid;
+  grid-area: 1/3;
+   background-position: center;
+   margin-top: 200px;
+   background-color: orange;
+   color: white;
+   width: 500px;
+   height: 450px;
+}
+.btn-primary{
+    background-color:white;
+    color: black;
+    border: none;
+}
+.phone{
+    background-color: orange;
+    color: white;
+    height: 450px;
+    
+}
+.phone-img{
+   
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+.iphone{
+    align-self: center;
+}
+.phone-text{
+    float: right;
+    align-self: right;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-right: 200px;
+}
+.title-phone{
+    font-size: 25px;
+}
+.conductor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3, 100px);
+    background-position: center bottom;
+    background-size: cover;
+    background-image: url(../assets/images/conduce.jpg);
+
+}
+.btn-primary-conductor{
+    background-color:orange;
+    color: white;
+    border: none;
+}
+.jumbotron-conductor{
+  display: grid;
+   grid-area: 1/3;
+   background-position: center;
+   background-color: rgba(10,23,55,0.5);
+
+   color:white;
+   width: 100%;
+   height: 80vh;
+}
+.tarifa{
+    background-color: orange;
+    color: white;
+   height: 550px;
+
+}
+.tafifa-text{
+float: left;
+align-self: center;
+margin-top: 100px;
+
+    
+}
+.map{
+    float: right;
+    align-self: right;
+    margin-right: 200px;
+}
+
+footer{
+display: block;
+padding-top: 5rem;
+padding-bottom: 5rem;
+background-color: #333447;
+color: #fff;
+}
+
+
+.cont {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.row{
+    display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+flex-wrap: wrap;
+margin-right: -10px;
+margin-left: -1px;
+}
+li{
+    list-style-type: none;
+}
+.barra{
+    height: 3px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+   align-self: center;
+   padding-left: 15px;
+   
+}
