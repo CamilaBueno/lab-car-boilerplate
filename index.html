@@ -43,7 +43,7 @@
             </div>
             
     </header>
-    <div id="exampleModal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="exampleModal" class="modal fade" item-width="100" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered-sm" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -52,14 +52,15 @@
             <span aria-hidden="true">&times;</span>
           </button>
           <img src="assets/images/user.png" width="100" vertical-align="middle"alt="">
-        <div class="form-group">
+        <br>
+          <div class="form-inline">
          <i class="icon-user"></i><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
          
         </div>
-        <div class="form-group">
+        <div class="form-inline">
           <i class="icon-lock"></i><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
         </div>
-        <button type="submit" class="btn btn-primary-user">Loging</button>
+        <button type="submit" class="btn btn-primary-user">Enviar</button>
         
           
         </div>
@@ -73,13 +74,13 @@
             <div class="jumbotron">
                     <h2 class="display-5">Disfruta del viaje</h2>
                     <h2 class="display-5">Eres dueño de tu tiempo</h2>
-                    <hr class="my-4">
+                    <hr>
                     <p class="display-5">Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
                     <p class="lead">
-                       <a class="btn btn-primary btn-lg "  href="#" role="button" data-toggle="modal" data-target="#exampleModalLong">Regístrate</a>
-                        <p class="display-5">o bien</p>
+                       <a class="btn btn-primary btn-sm "  href="#" role="button" data-toggle="modal" data-target="#exampleModalLong">Regístrate</a>
+                    <p class="display-5">o bien</p>   
                         
-                      <a class="btn btn-primary btn-lg" href="#" role="button"data-toggle="modal" data-target="#exampleModalLong1">Conviértese en un conductor</a>
+                      <a class="btn btn-primary btn-sm" href="#" role="button"> ¡Conviértese en un conductor</a>
                     </p>
                   </div>
                 </div> 
@@ -87,7 +88,7 @@
                   <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Ya tienes una cuenta?</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">¿Ya tienes una cuenta?</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -97,11 +98,11 @@
                   <div class="form-row">
                     <div class="form-group col-md-6">
               
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                      <input type="nombre" class="form-control" id="inputEmail4" placeholder="Nombre">
                     </div>
                     <div class="form-group col-md-6">
             
-                      <input type="password" class="form-control" id="inputPassword4" placeholder="Apelido">
+                      <input type="apelido" class="form-control" id="inputPassword4" placeholder="Apelido">
                     </div>
                   </div>
                   <div class="form-group">
@@ -128,7 +129,7 @@
                       <form class="form-inline">
                 
                         <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                          <option selected>Cómo te enteraste de nosotros?</option>
+                          <option selected>¿Cómo te enteraste de nosotros?</option>
                           <option value="tv">TV</option>
                           <option value="radio">Radio</option>
                           <option value="internet">Internet</option>
@@ -155,7 +156,7 @@
                     <div class="modal-body">
             <div class="form-group">
             
-                  <label >Tienes un vehiculo de 4 puertas?</label><br>
+                  <label >¿Tienes un vehiculo de 4 puertas?</label><br>
                   <select name="" id="">
                 <option value="">Sí</option>
                 <option value="1">No</option>
@@ -211,7 +212,7 @@
           </div>
                     <div class="phone">
                 <div class=" border border-left-0 phone-img">
-                <img class="iphone"src="assets/images/iPhone6Plus.png" alt="" width="250px"> 
+                <img class="iphone"src="assets/images/iPhone6Plus.png" alt="" width="250px" height="auto"> 
                 <div class="phone-text  ">
                     <p class="title-phone">Descarga la nueva app</p>
                     <p>La versión actualizada de Labcar <br>
@@ -232,7 +233,7 @@
                 <h2 class="display-5">LabCar es una opción flexible para alcanzar 
                   tus mietas financieras</h2>
                 <p class="lead">
-                  <a class="btn btn-primary-conductor btn-lg" href="#" role="button">Conviértete en un conductor</a>
+                  <a class="btn btn-primary-user btn-sm" href="#" role="button"data-toggle="modal" data-target="#exampleModalLong1">Conviértete en un conductor</a>
                 </p>
               </div>
         </div>
@@ -241,20 +242,22 @@
             <h2>Tarifas</h2>
             <h3>Consulta las tarifas LabCar aquí</h3>
             <form class="form-inline">
-                      <i class="icon-location-arrow"></i>
-                      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Ingrese su punto de partida">
+                      <img src="assets/images/shape.png" alt="">
+                      <input type="text" class="form-control " id="inlineFormInputName2" placeholder="Ingrese su punto de partida">
             </form>   
+            <br>
             <form class="form-inline">
-                <i class="icon-location"></i>
-                <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Ingrese su destino"> <br>
+                <img src="assets/images/shape2.png" alt="">
+                <input type="text" class="form-control" id="inlineFormInputName2" placeholder="Ingrese su destino"> <br>
                 
               </form>   
+              <br>
               <button type="submit" class="btn btn-primary ">!Trazar ruta!</button>
              
             </div>
-            <div class="map col-md-4 border border-white justify-content-end">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.7972010767!2d-46.87549254108886!3d-23.68216038711645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1532973300664"width= "425px"
-                height= "300px" marginheight="20" align="middle" frameborder="1" allowfullscreen></iframe>
+            <div class="map col-md-5 mb-5 border border-white justify-content-end">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04876829265!2d-46.875490674070406!3d-23.681531477207706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1533065424722" width= "450"
+                height= "350"  allowfullscreen></iframe>
     
             </div>
       </div>
@@ -275,15 +278,15 @@
                     <li>Países</li>
                     <li>Seguridad</li>
                     <br>
-                    <a class="icon-facebook" href="wwww.facebook.com.br"></a>
-                    <a class="icon-twitter" href="www.twitter.com"></a>
-                    <a class="icon-linkedin" href="www.linkedin.com"></a>
-                    <a class="icon-apple" href="www.apple.com"></a>
-                    <a class="icon-play"href="https://play.google.com/store?hl=pt_BR"></a>
+                    <a class="icon-facebook"  href="wwww.facebook.com.br"></a>
+                    <a class="icon-twitter"  href="www.twitter.com"></a>
+                    <a class="icon-linkedin"  href="www.linkedin.com"></a>
+                    <a class="icon-apple"  href="www.apple.com"></a>
+                    <a class="icon-play" href="https://play.google.com/store?hl=pt_BR"></a>
                   </ul>
           
             </div>
-            <div class="col-md-4 mb-5 mb-lg-0">
+            <div class=" fot col-md-4 mb-5 mb-lg-0">
                 <ul>
                     <li>Oportunidades</li>
                     <li>Nuestra Historia</li> 
@@ -298,7 +301,7 @@
             </div>
            
             <div class="logos">
-              <img src="assets/images/appstore.png" alt="">
+              <img src="assets/images/appstore.png" alt=""> <br>
               <img src="assets/images/enBadgeWebGeneric.png" alt="">
             </div>
 
